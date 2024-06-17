@@ -1,0 +1,28 @@
+body {
+    padding: 25px;
+    align-items: center;
+}
+.gradient-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.gradient-box{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 6px;
+    transition: background 0.5s;
+}
+
+.gradient-box:nth-child(odd) {
+    background: linear-gradient(45deg, #ff00bf, #ffea00);
+}
+
+.gradient-box:nth-child(even){
+    background: linear-gradient(45deg, #00e600, #00d2ff);
+}
+
+.gradient-box:hover {
+    background: linear-gradient(45deg, #ff007f, #ffa500);
+}
