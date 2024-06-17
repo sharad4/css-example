@@ -1,0 +1,18 @@
+.complex-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.complex-box {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #ff00bf, #ffea00);
+    transition: transform 0.5s, background 0.5s;
+}
+
+.complex-box:hover {
+    transform: rotate(360deg) scale(1.5);
+    background: linear-gradient(45deg, #ff007f, #00e600);
+}
