@@ -1,0 +1,17 @@
+.transform-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.transform-box {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 6px;
+    background: #00e600;
+    transition: transform 0.5s;
+}
+
+.transform-box:hover {
+    transform: rotate(45deg) scale(1.2)
+}
